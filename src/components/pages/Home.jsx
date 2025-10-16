@@ -46,7 +46,7 @@ export default function Home() {
             Discover the world's most exquisite luxury timepieces, crafted with precision and passion.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="bg-white text-black hover:bg-white/90">
+            <Button asChild variant="outline" size="lg" className="border-white text-black hover:bg-white hover:text-black">
               <Link to="/products">
                 Shop Collection <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
